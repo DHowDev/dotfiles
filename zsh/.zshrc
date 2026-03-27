@@ -31,3 +31,6 @@ alias grep='grep --color=auto'
 if command -v starship &>/dev/null; then
   eval "$(starship init zsh)"
 fi
+
+# Machine-local overrides (not tracked in git)
+[ -f ~/.zshrc.local ] && . ~/.zshrc.local
