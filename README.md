@@ -9,7 +9,8 @@ replace Omarchy defaults, just layers on top of them via override hooks.
 |---|---|---|
 | `git/config` | `~/.config/git/config` | Identity, aliases, diff/push prefs |
 | `git/ignore` | `~/.config/git/ignore` | Global gitignore |
-| `zsh/.zshrc` | `~/.zshrc` | Personal aliases and shell additions |
+| `zsh/.zshrc` | `~/.zshrc` | Personal aliases, colors, and shell additions |
+| `starship/starship.toml` | `~/.config/starship.toml` | Starship prompt — cyan minimal theme |
 | `tmux/local.conf` | `~/.config/tmux/local.conf` | Personal tmux bindings, sourced by Omarchy's tmux.conf |
 | `nvim/options.lua` | `~/.config/nvim/lua/config/options.lua` | Personal vim options (guicursor etc.) |
 | `nvim/plugins/smear-cursor.lua` | `~/.config/nvim/lua/plugins/smear-cursor.lua` | Cursor trail plugin |

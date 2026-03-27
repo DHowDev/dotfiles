@@ -61,7 +61,8 @@ echo ""
 
 # ── Always: shell ──────────────────────────────────────────────────────────────
 echo "[zsh]"
-link "$DOTFILES/zsh/.zshrc"  "~/.zshrc"
+link "$DOTFILES/zsh/.zshrc"          "~/.zshrc"
+link "$DOTFILES/starship/starship.toml"  "~/.config/starship.toml"
 echo ""
 
 # ── Desktop / server: tmux ─────────────────────────────────────────────────────
